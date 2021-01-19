@@ -1,0 +1,6 @@
+# HangMan
+Python-based hangman game
+Instructions :
+Do not put several letters at a time
+You can change the word in line4. 
+  When changing the word, put each letter in seperate quotes.
