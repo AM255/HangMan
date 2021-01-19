@@ -1,0 +1,32 @@
+#HangMan
+name = input ("Hi, what's your name? : ")
+print ('Time to play HangMan',name,'!')
+word_let = ['c', 'a', 'k', 'e', 'z']
+num_let = len (word_let)
+print ('The word has' ,num_let, 'letters')
+guess_let = ['_']
+for i in range(num_let-1):
+    guess_let.insert(i,'_')
+
+print(guess_let)    
+again = True
+n=0
+while again:
+    n=n+1
+    if n<11:
+        guess = input ('Guess a letter : ')
+        for j in range(num_let):
+            if guess == (word_let [j]):
+                guess_let[j]=guess
+                print (word_let [j], 'is the',j,' letter of the word')
+                print (guess_let)
+    if (guess_let != word_let):
+        if n<10:
+            print('Try again')    
+    if n>10:
+        print ('You loose')
+        break
+    elif  (guess_let == word_let):
+        print ('Congrats! You won!')
+        break
+again = ("")
