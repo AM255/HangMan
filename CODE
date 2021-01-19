@@ -27,6 +27,6 @@ while again:
         print ('You loose')
         break
     elif  (guess_let == word_let):
-        print ('Congrats! You won!')
+        print ('Congrats',name,'! You won!')
         break
 again = ("")
