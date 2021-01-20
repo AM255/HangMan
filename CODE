@@ -1,7 +1,7 @@
 #HangMan
 name = input ("Hi, what's your name? : ")
 print ('Time to play HangMan',name,'!')
-word_let = ['c', 'a', 'k', 'e', 'z']
+word_let = ['a', 'm', 'b', 'u', 'l', 'a', 'n', 'c', 'e']
 num_let = len (word_let)
 print ('The word has' ,num_let, 'letters')
 guess_let = ['_']
