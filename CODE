@@ -12,7 +12,6 @@ print(guess_let)
 again = True
 n=0
 while again:
-    n=n+1
     if n<11:
         guess = input ('Guess a letter : ')
         for j in range(num_let):
@@ -22,7 +21,8 @@ while again:
                 print (guess_let)
     if (guess_let != word_let):
         if n<10:
-            print('Try again')    
+          n=n+1
+          print('Try again')    
     if n>10:
         print ('You loose')
         break
