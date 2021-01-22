@@ -17,7 +17,7 @@ while again:
         for j in range(num_let):
             if guess == (word_let [j]):
                 guess_let[j]=guess
-                print (word_let [j], 'is the',j,' letter of the word')
+                print (word_let [j], 'is the',j + 1,'th letter of the word')
                 print (guess_let)
     if (guess_let != word_let):
         if n<10:
